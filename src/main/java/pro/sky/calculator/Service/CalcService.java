@@ -1,4 +1,4 @@
-package pro.sky.calculator;
+package pro.sky.calculator.Service;
 
 public interface CalcService {
     String welcome();
@@ -11,4 +11,5 @@ public interface CalcService {
     String plus(int num1, int num2);
 
     String minus(int num1, int num2);
+
 }
